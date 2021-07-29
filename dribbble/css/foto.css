@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img {
+  position: relative;
+  width: 50%;
+  max-width: 350px;
+}
+.foto {
+  margin-left: 20PX;
+margin-top: 20px;
+border-radius: 5%;
+width: 350px;
+height: 350px;
+background: rgb(255, 255, 255);
+}
+.foto1 {
+  margin-left: 20PX;
+  margin-top: -30px;
+}
+.foto2 {
+  margin-left: 20PX;
+  margin-top: -30px;
+}
+.title {
+  margin-left: 45PX;
+  margin-top: -25px;
+}
+.title H3{
+  font-size: 17PX;
+  
+}
+.lihat{
+  float: right;
+}
+.lihat img{
+
+  width: 15px;
+  height: 15px;
+}
+.suka{
+  float: right;
+  margin-top: -35px;
+  margin-right: 70px;
+}
+.suka img{
+
+  width: 15px;
+  height: 15px;
+}
+.suka img span{
+
+  float: right;
+}
+.lihat{
+  float: right;
+  margin-top: -35px;
+  margin-right: 10px;
+}
+.author img {
+  object-fit: cover;
+  margin-top: 5px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+
+}
+.image {
+  border-radius: 8px;
+  display: block;
+  width: 350px;
+  height: auto;
+}
+
+.overlay {
+  border-radius: 8px;
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 200%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px;
+}
+.overlay i {
+    float: right;
+    margin-left: 15px;
+    margin-right: 10px;
+  
+}
+.overlay a {
+    color: white;
+}
+.overlay i:hover {
+    color: lightslategrey;
+}
+.suka a {
+  color: darkslategrey;
+}
+.suka i:hover {
+  color: rgb(228, 57, 162);
+}
+.lihat a {
+  color: darkslategrey;
+}
+.lihat i:hover {
+  color: rgb(228, 57, 162);
+}
+.foto:hover .overlay {
+  opacity: 1;
+}

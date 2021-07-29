@@ -1,0 +1,46 @@
+.dropdown1:hover .jumbtroncover {
+    display: block;
+    margin-top: -10px;
+    border-radius: 5%;
+}
+
+.jumbtroncover{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 170px;
+}
+.jumbotron1 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    width: 300px;
+    height: 80px;
+}
+.jumbotron1 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+.jumbotron1 h1 {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-left: 13px;
+    margin-top: 22px;
+}
+.jumbotron1 p {
+    font-size: 15px;
+    color: black;
+    float: left;
+    margin-top: -8px;
+    margin-left: 13px;
+}
+.jumbotron1 h1:hover {
+    color: deeppink;   
+}
+.jumbtroncover:hover .jumbotron1 {
+    background-color: lightpink;
+    
+}

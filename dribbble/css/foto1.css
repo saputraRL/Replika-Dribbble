@@ -1,0 +1,65 @@
+
+* {box-sizing: border-box;}
+
+.foto {
+  position: relative;
+  width: 50%;
+  max-width: 350px;
+}
+
+.image {
+  border-radius: 8px;
+  display: block;
+  width: 350px;
+  height: auto;
+}
+
+.overlay {
+  float: left;
+  border-radius: 8px;
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.foto:hover .overlay {
+  opacity: 1;
+}
+.title h3 {
+  font-size: 30px;
+  
+}
+.title {
+    margin-left: 65PX;
+    margin-top: -30px;
+}
+.title H3{
+    font-size: 20PX;
+    
+}
+.lihat{
+    float: right;
+}
+.suka{
+    float: right;
+    margin-top: -35px;
+    margin-right: 70px;
+}
+
+.suka a span{
+
+    float: right;
+}
+.lihat{
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
